@@ -18,6 +18,7 @@ gem 'simple_form', '3.1.0.rc1'
 gem 'turbolinks', '~> 2.5.3'
 gem 'uglifier', '~> 2.7.0'
 gem 'yajl-ruby', '~> 1.2.0'
+gem 'devise'
 
 gem 'rails_12factor', '~> 0.0.2', group: :production
 

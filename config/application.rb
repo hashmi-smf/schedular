@@ -11,5 +11,6 @@ Bundler.require(*Rails.groups)
 
 module RailsFullcal2Bs3
   class Application < Rails::Application
+  	config.assets.initialize_on_precompile = false
   end
 end
