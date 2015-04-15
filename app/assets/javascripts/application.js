@@ -1,0 +1,9 @@
+//= require jquery
+//= require jquery_ujs
+//= require turbolinks
+//= require jquery.ui.all
+//= require bootstrap
+//= require moment
+//= require fullcalendar
+//= require bootstrap-datetimepicker
+//= require events
