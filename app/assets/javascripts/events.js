@@ -45,4 +45,5 @@ $(document).on('page:change', function() {
       drop(event, dayDelta, minuteDelta);
     }
   });
+
 });
