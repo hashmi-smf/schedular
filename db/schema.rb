@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20150415105425) do
     t.datetime "start"
     t.datetime "finish"
     t.text     "description",                 null: false
+    t.string   "status",                      null: false
     t.boolean  "all_day",     default: false, null: false
   end
 

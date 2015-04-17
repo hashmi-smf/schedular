@@ -7,6 +7,7 @@ class CreateEvents < ActiveRecord::Migration
       t.datetime :start
       t.datetime :finish
       t.text     :description, null: false
+      t.string   :status, null: false
       t.boolean  :all_day,     null: false, default: false
     end
     add_index :events, :name

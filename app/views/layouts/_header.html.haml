@@ -1,6 +1,9 @@
-.col-md-5.col-md-offset-1
-  %h1 Amair Scheduler
-.col-md-2.col-md-offset-4#create-event
-  = link_to new_event_path, remote: true do
-    %button.btn.btn-default
-      Create Event
+.container
+  .col-md-5
+    = link_to root_path do
+      = image_tag("cosmicvent.gif",:alt=>'Amair',:title=>'Amair Schedular',:class=>'navbar-brand', :style=> 'padding:0px;')
+  - if user_signed_in?
+    .col-md-3#create-event
+      = link_to new_event_path, remote: true do
+        %button.btn.btn-default
+          Create Event

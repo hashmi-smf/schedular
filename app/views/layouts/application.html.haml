@@ -10,10 +10,7 @@
 
   %body
     .container-fluid
-      %p.notice
-        = notice
-      %p.alert
-        = alert
-      .row#header= render 'layouts/header'
+      .row#header= render 'layouts/header' 
+      .row= render 'layouts/messages'
       .row.content= yield
       
