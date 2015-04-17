@@ -16,7 +16,7 @@ database.yml
 ehthumbs.db
 Thumbs.db
 
-config/secrets.yml
+
 tmp
 log/*.log
 public
