@@ -4,6 +4,9 @@ class CreateEvents < ActiveRecord::Migration
       t.timestamps null: false
 
       t.string   :name,        null: false
+      t.string   :phone,       null: false
+      t.string   :mail
+      t.string   :budget
       t.datetime :start
       t.datetime :finish
       t.text     :description, null: false

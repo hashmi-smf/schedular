@@ -1,9 +1,12 @@
 = simple_form_for @event, remote: true do |f|
   = f.input :name
+  = f.input :phone
+  = f.input :mail
+  = f.input :budget
+  = f.input :start,  as: :datetimepicker, label: 'Visit'
   = f.input :description, as: :text, input_html: { rows: 4, cols: 30 }
-  = f.input :start,  as: :datetimepicker
-  = f.input :finish, as: :datetimepicker
-  = f.select(:status, options_for_select([['Complete', 'Complete'], ['Hold','Hold'],['Incomplete','Incomplete']]), {prompt: "Status"}, {class: "form-control"})
+  = f.input :finish, as: :datetimepicker, label: 'Remainder'
+  = f.input :status
   = f.input :all_day, as: :boolean, label: 'All Day'
 
   .modal-footer
