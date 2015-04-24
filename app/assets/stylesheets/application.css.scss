@@ -13,7 +13,7 @@
   max-width: 300px;
   padding: 19px 29px 29px;
   margin: 0 auto 20px;
-  background-color: #272727;
+  background-color: #000;
   border: 1px solid #e5e5e5;
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
@@ -33,4 +33,7 @@
   height: auto;
   margin-bottom: 15px;
   padding: 7px 9px;
+}
+#calendar{
+  color: black;
 }
